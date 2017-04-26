@@ -1,0 +1,55 @@
+@charset "utf-8";
+body, html{
+	font-size: 16px;
+	background-color: white;
+	overflow: hidden;
+	cursor: none;
+}
+#background{
+	position:absolute;
+	 width:auto;
+	 height:auto;
+	 z-index:1;
+	 left:0px;
+	 top:0px;
+}
+.header-text {
+    position: absolute;
+    padding: 0 1.5em;
+    height: 116px;
+    left: 0px;
+    width: 1920px;
+    top: 60px;
+    font-family: 'Myriad Pro',sans-serif;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    font-size: .8em;
+    white-space: nowrap;
+}
+.footer-text {
+    position: absolute;
+    display: none;
+    padding: 0 1.5em;
+    height: 105px;
+    left: 710px;
+    width: 1210px;
+    top: 976px;
+    font-family: 'Myriad Pro',sans-serif;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    font-size: 1.25em;
+    white-space: nowrap;
+}
+.footer-text>div{
+    display:inline-block;
+    margin:0 .75em;
+}
+.footer-text>div>p{
+    line-height: 1.2;
+    font-weight: 300;
+}
+.footer-text>div>p>strong{
+    font-weight: bold;
+}

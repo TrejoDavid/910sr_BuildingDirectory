@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/* BASE DIV STYLE */
+#listdata {
+    position: absolute;
+    top: -931px;
+    left: 1000px;
+    z-index: 2;
+    width: 920px;
+   	height: 932px;
+    font-size: 1.3em;
+    font-weight: normal;
+    color: #000;
+    overflow: hidden;
+    /* padding-bottom: 1em; */
+} 
+#listdata *{
+}
+#companyData{
+	position:relative;
+	float:left;
+	top:0;
+	left:0px;
+	margin:0;
+	width:480px;
+	height: 875px;
+}
+#individualData{
+	position:relative;
+	float:left;
+	margin:0;
+	top:0;
+	width:1440px;
+	height: 875px;
+}
+/* TABLE STYLING */
+.innerCol{
+	/*border:solid red 1px;*/
+	width: 50%;
+	max-width: 50%;
+	padding:0 10px;
+	height: 100%;
+	/*padding-left:30px;*/
+/*	border-right:solid #f05a22 3px;*/
+}
+#individualData .innerCol{
+	width: 33%;
+	max-width: 33%;
+	padding:0 5px;	
+	border-right:solid #f05a22 3px;
+}
+#individualData .innerCol:last-child{
+	padding-right:5px;
+	border-right:none;
+}
+.compColumnWidth {
+	width: 100%;
+	height: 100%;
+	/*margin-top: 1em;*/
+	/*margin-bottom: 10px;*/
+}
+.compColumnWidth:first-child{
+	margin-top:0;
+}
+.indColumnWidth {
+	width: 100%;
+	height: 100%;
+	/*margin-top: 1em;*/
+	/*margin-bottom: 10px;	*/
+}
+.indColumnWidth:first-child{
+	margin-top:0;
+}
+.innerTbl{
+	width:100%;
+	height:100%;
+}
+.compColumnWidth td{
+	/*padding-top:1em;*/
+}
+td.compName {
+	width: 85%;
+	vertical-align: top;
+}
+td.compSuite {
+	width: 15%;
+	vertical-align: top;
+}
+td.compFloor {
+	vertical-align: top;
+	width: 35%;
+}
+td.indName {
+	width: 85%;
+	vertical-align: top;
+}
+td.indSuite {
+	width: 15%;
+	vertical-align: top;
+	/*display:none;*/
+}
+td.indSpecialty {
+	width: 65%;
+	padding:0px 0px 0px 0px;
+}
+td.indFloor {
+	width: 5%;
+	text-align: center;
+	vertical-align: top;
+}
+
+/* TEXT STYLING */
+.companyName {
+	font-size: 1.25em;
+	margin: 0px 0px 0px 0px;
+	text-transform:capitalize;
+	text-align: left;
+	font-family: 'Myriad Pro';
+	color: #343b72;
+	font-weight: bold;
+}
+.companySuite {
+	font-size: 1.25em;
+	text-align: left;
+	margin: 0px 0 0 0;
+	font-family: 'Myriad Pro';
+	text-indent: 0px;
+	padding-left: 0px;
+	white-space: nowrap;
+	color: inherit;
+	font-weight: normal;
+}
+.companyAbout {
+	font-size: .75em;
+	margin: 0px 0 0px 40px;
+	text-align: left;
+	font-family: 'Myriad Pro';
+	font-style: normal;
+	color: inherit;
+	font-weight: 300;
+}
+.companyFloor {
+	font-size: 1.25em;
+	text-align: right;
+	margin: 0px 0px 0 0;
+	font-family: 'Myriad Pro';
+	text-indent: 0px;
+	padding-left: 0px;
+	white-space: nowrap;
+	color: inherit;
+	font-weight: 300;
+}
+.individualName {
+	font-size: 1.15em;
+	margin: 0px 0px 0px 0px;
+	/*text-transform:capitalize;*/
+	text-align: left;
+	font-family: 'Myriad Pro';
+	color: inherit;
+	font-weight: normal;
+}
+.individualSuite {
+	font-size: 1.15em;
+	text-align: center;
+	margin: 0px 0 0 0;
+	font-family: 'Myriad Pro';
+	text-indent: 0px;
+	padding-left: 0px;
+	white-space: nowrap;
+	color: inherit;
+	font-weight: bold;
+}
+.individualFloor {
+	font-size: 1em;
+	font-family: 'Myriad Pro';
+	text-indent: 0px;
+	padding-left: 0px;
+	font-weight: normal;
+	color: inherit;
+	white-space: nowrap;
+}
